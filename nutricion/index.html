@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Punto y opino de ti</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="dieta.png" type="image/png">
+</head>
+<body>
+  <div class="content-container">
+    <h1>🧠 Punto y opino de ti</h1>
+    <p>¿Qué piensas cuando imaginas un cuerpo perfecto?</p>
+    <textarea id="respuesta" placeholder="Escribe tu respuesta aquí..."></textarea>
+    <br>
+    <div class="button-container">
+      <button onclick="analizarRespuesta()">Enviar</button>
+      <button id="btn-reset" onclick="reiniciar()">Volver a intentar</button>
+    </div>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
